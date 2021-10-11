@@ -12,6 +12,7 @@ public class CalculatorView extends JFrame {
     public CalculatorView()
     {
         f = new JFrame();
+        f.setTitle("Calculator");
         f.setSize(200, 200);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.getContentPane().setBackground(new Color(128,125,240));
